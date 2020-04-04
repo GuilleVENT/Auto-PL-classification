@@ -1,0 +1,360 @@
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   MIR  DATASET -----
+ - kNN  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of KNeighborsClassifier(algorithm='auto', leaf_size=1, metric='minkowski',
+           metric_params=None, n_jobs=-1, n_neighbors=7, p=1,
+           weights='uniform')>
+ --> Validation: 
+ - Accuracy: 37.21%
+             precision    recall  f1-score   support
+
+          0       1.00      0.04      0.07        26
+          1       0.15      0.18      0.16        22
+          2       0.57      0.74      0.64        58
+          3       0.00      0.00      0.00        12
+          4       0.00      0.00      0.00        11
+
+avg / total       0.48      0.37      0.33       129
+
+[[ 1  0  0  0 25]
+ [ 0  4 18  0  0]
+ [ 0 15 43  0  0]
+ [ 0  2 10  0  0]
+ [ 0  6  5  0  0]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   MIR  DATASET -----
+ - kNN  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of KNeighborsClassifier(algorithm='auto', leaf_size=1, metric='minkowski',
+           metric_params=None, n_jobs=-1, n_neighbors=7, p=1,
+           weights='uniform')>
+ --> Validation: 
+ - Accuracy: 44.27%
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00        25
+          1       0.00      0.00      0.00        22
+          2       0.48      1.00      0.64        58
+          3       0.00      0.00      0.00        16
+          4       0.00      0.00      0.00        10
+
+avg / total       0.21      0.44      0.29       131
+
+[[ 0  0 16  0  9]
+ [ 0  0 22  0  0]
+ [ 0  0 58  0  0]
+ [ 0  0 16  0  0]
+ [ 0  0 10  0  0]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   MIR  DATASET -----
+ - kNN  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of KNeighborsClassifier(algorithm='auto', leaf_size=1, metric='minkowski',
+           metric_params=None, n_jobs=-1, n_neighbors=7, p=1,
+           weights='uniform')>
+ --> Validation: 
+ - Accuracy: 41.22%
+             precision    recall  f1-score   support
+
+          0       1.00      0.48      0.65        25
+          1       0.21      0.50      0.30        22
+          2       0.47      0.53      0.50        58
+          3       0.00      0.00      0.00        16
+          4       0.00      0.00      0.00        10
+
+avg / total       0.43      0.41      0.40       131
+
+[[12  0 12  0  1]
+ [ 0 11 11  0  0]
+ [ 0 27 31  0  0]
+ [ 0  7  9  0  0]
+ [ 0  7  3  0  0]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   MIR  DATASET -----
+ - kNN  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of KNeighborsClassifier(algorithm='auto', leaf_size=1, metric='minkowski',
+           metric_params=None, n_jobs=-1, n_neighbors=7, p=1,
+           weights='uniform')>
+ --> Validation: 
+ - Accuracy: 40.91%
+             precision    recall  f1-score   support
+
+          0       1.00      0.04      0.08        25
+          1       0.00      0.00      0.00        29
+          2       0.45      1.00      0.62        53
+          3       0.00      0.00      0.00        14
+          4       0.00      0.00      0.00        11
+
+avg / total       0.37      0.41      0.26       132
+
+[[ 1  0 11  0 13]
+ [ 0  0 29  0  0]
+ [ 0  0 53  0  0]
+ [ 0  0 14  0  0]
+ [ 0  0 11  0  0]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   MIR  DATASET -----
+ - kNN  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of KNeighborsClassifier(algorithm='auto', leaf_size=1, metric='minkowski',
+           metric_params=None, n_jobs=-1, n_neighbors=7, p=1,
+           weights='uniform')>
+ --> Validation: 
+ - Accuracy: 45.45%
+             precision    recall  f1-score   support
+
+          0       1.00      0.28      0.44        25
+          1       0.00      0.00      0.00        29
+          2       0.46      1.00      0.63        53
+          3       0.00      0.00      0.00        14
+          4       0.00      0.00      0.00        11
+
+avg / total       0.38      0.45      0.34       132
+
+[[ 7  0  7  0 11]
+ [ 0  0 29  0  0]
+ [ 0  0 53  0  0]
+ [ 0  0 14  0  0]
+ [ 0  0 11  0  0]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   MIR  DATASET -----
+ - kNN  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of KNeighborsClassifier(algorithm='auto', leaf_size=1, metric='minkowski',
+           metric_params=None, n_jobs=-1, n_neighbors=7, p=1,
+           weights='uniform')>
+ --> Validation: 
+ - Accuracy: 39.39%
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00        25
+          1       0.38      0.41      0.39        29
+          2       0.45      0.75      0.56        53
+          3       0.00      0.00      0.00        14
+          4       0.00      0.00      0.00        11
+
+avg / total       0.26      0.39      0.31       132
+
+[[ 0  0 14  0 11]
+ [ 0 12 17  0  0]
+ [ 0 13 40  0  0]
+ [ 0  4 10  0  0]
+ [ 0  3  8  0  0]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #

@@ -1,0 +1,228 @@
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -kNN Classifier 
+ - PARAMETERS:
+{"algorithm": "auto", "leaf_size": 1, "metric": "minkowski", "metric_params": null, "n_jobs": -1, "n_neighbors": 3, "p": 1, "weights": "uniform"}
+ --> Validation: 
+ - Accuracy: 92.50%
+             precision    recall  f1-score   support
+
+          0       0.75      0.60      0.67         5
+          1       0.94      0.97      0.96        35
+
+avg / total       0.92      0.93      0.92        40
+
+[[ 3  2]
+ [ 1 34]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 3 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -kNN Classifier 
+ - PARAMETERS:
+{"algorithm": "auto", "leaf_size": 1, "metric": "minkowski", "metric_params": null, "n_jobs": -1, "n_neighbors": 6, "p": 1, "weights": "distance"}
+ --> Validation: 
+ - Accuracy: 73.33%
+             precision    recall  f1-score   support
+
+          0       0.75      0.60      0.67         5
+          1       0.79      0.83      0.81        36
+          2       0.61      0.58      0.59        19
+
+avg / total       0.73      0.73      0.73        60
+
+[[ 3  0  2]
+ [ 1 30  5]
+ [ 0  8 11]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -kNN Classifier 
+ - PARAMETERS:
+{"algorithm": "auto", "leaf_size": 1, "metric": "minkowski", "metric_params": null, "n_jobs": -1, "n_neighbors": 3, "p": 1, "weights": "uniform"}
+ --> Validation: 
+ - Accuracy: 95.00%
+             precision    recall  f1-score   support
+
+          0       0.80      0.80      0.80         5
+          1       0.97      0.97      0.97        35
+
+avg / total       0.95      0.95      0.95        40
+
+[[ 4  1]
+ [ 1 34]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 3 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -kNN Classifier 
+ - PARAMETERS:
+{"algorithm": "auto", "leaf_size": 1, "metric": "minkowski", "metric_params": null, "n_jobs": -1, "n_neighbors": 6, "p": 1, "weights": "distance"}
+ --> Validation: 
+ - Accuracy: 66.67%
+             precision    recall  f1-score   support
+
+          0       0.67      0.40      0.50         5
+          1       0.76      0.78      0.77        36
+          2       0.50      0.53      0.51        19
+
+avg / total       0.67      0.67      0.66        60
+
+[[ 2  0  3]
+ [ 1 28  7]
+ [ 0  9 10]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -kNN Classifier 
+ - PARAMETERS:
+{"algorithm": "auto", "leaf_size": 5, "metric": "minkowski", "metric_params": null, "n_jobs": -1, "n_neighbors": 3, "p": 1, "weights": "distance"}
+ --> Validation: 
+ - Accuracy: 97.50%
+             precision    recall  f1-score   support
+
+          0       0.83      1.00      0.91         5
+          1       1.00      0.97      0.99        35
+
+avg / total       0.98      0.97      0.98        40
+
+[[ 5  0]
+ [ 1 34]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 3 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -kNN Classifier 
+ - PARAMETERS:
+{"algorithm": "auto", "leaf_size": 1, "metric": "minkowski", "metric_params": null, "n_jobs": -1, "n_neighbors": 15, "p": 2, "weights": "distance"}
+ --> Validation: 
+ - Accuracy: 71.67%
+             precision    recall  f1-score   support
+
+          0       0.67      0.40      0.50         5
+          1       0.77      0.83      0.80        36
+          2       0.61      0.58      0.59        19
+
+avg / total       0.71      0.72      0.71        60
+
+[[ 2  1  2]
+ [ 1 30  5]
+ [ 0  8 11]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #

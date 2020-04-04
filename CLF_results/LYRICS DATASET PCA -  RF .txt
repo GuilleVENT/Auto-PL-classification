@@ -1,0 +1,58 @@
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 0 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:RapCaviar
+ - PL ID37i9dQZF1DX0XUsuxWHRQd
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Hot Country
+ - PL ID37i9dQZF1DX1lVhptIYRda
+ -------- RESULTS --------
+ ----- LYRICS DATASET PCA-----
+ - RF  Classifier 
+ - PARAMETERS:
+{"bootstrap": true, "class_weight": null, "criterion": "gini", "max_depth": 100, "max_features": "auto", "max_leaf_nodes": null, "min_impurity_decrease": 0.0, "min_impurity_split": null, "min_samples_leaf": 3, "min_samples_split": 10, "min_weight_fraction_leaf": 0.0, "n_estimators": 50, "n_jobs": -1, "oob_score": false, "random_state": null, "verbose": 0, "warm_start": false}
+ --> Validation: 
+ - Accuracy: 56.25%
+             precision    recall  f1-score   support
+
+          0       0.91      0.36      0.51        28
+          1       0.00      0.00      0.00         2
+          2       0.16      0.75      0.26         4
+          3       0.74      0.93      0.82        15
+          4       0.60      0.60      0.60        15
+
+avg / total       0.72      0.56      0.57        64
+
+[[10  0 11  4  3]
+ [ 1  0  0  0  1]
+ [ 0  0  3  0  1]
+ [ 0  0  0 14  1]
+ [ 0  0  5  1  9]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #

@@ -1,0 +1,3602 @@
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.762007444092
+ CLF 2:	SPO+SVM	--> Accuracy: 0.555839921253
+ 
+ Ensemble Voting:	 --> Accuracy: 0.669179816871
+ 	--> Validation Accuracy: 0.75
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.50      1.00      0.67         2
+          2       0.57      1.00      0.73        12
+          3       0.88      0.79      0.83        19
+          4       1.00      0.18      0.31        11
+
+avg / total       0.84      0.75      0.72        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  2  2 15  0]
+ [ 0  0  7  2  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.762007444092
+ CLF 2:	LYR+SVM	--> Accuracy: 0.762074092303
+ 
+ Ensemble Voting:	 --> Accuracy: 0.765459821383
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.58      0.92      0.71        12
+          3       0.94      0.89      0.92        19
+          4       1.00      0.36      0.53        11
+
+avg / total       0.87      0.81      0.80        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  1  0]
+ [ 0  1  1 17  0]
+ [ 0  0  7  0  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.762007444092
+ CLF 2:	MIR+kNN	--> Accuracy: 0.775867195751
+ 
+ Ensemble Voting:	 --> Accuracy: 0.761948998739
+ 	--> Validation Accuracy: 0.75
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.50      1.00      0.67         2
+          2       0.52      0.92      0.67        12
+          3       0.94      0.79      0.86        19
+          4       1.00      0.27      0.43        11
+
+avg / total       0.85      0.75      0.74        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  1  0]
+ [ 0  1  3 15  0]
+ [ 0  1  7  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.762007444092
+ CLF 2:	SPO+kNN	--> Accuracy: 0.658482266449
+ 
+ Ensemble Voting:	 --> Accuracy: 0.734477631835
+ 	--> Validation Accuracy: 0.711538461538
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.40      1.00      0.57         2
+          2       0.52      1.00      0.69        12
+          3       0.92      0.63      0.75        19
+          4       1.00      0.27      0.43        11
+
+avg / total       0.84      0.71      0.70        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  2  5 12  0]
+ [ 0  1  6  1  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.762007444092
+ CLF 2:	LYR+kNN	--> Accuracy: 0.762015646949
+ 
+ Ensemble Voting:	 --> Accuracy: 0.744528181939
+ 	--> Validation Accuracy: 0.788461538462
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.55      0.92      0.69        12
+          3       0.94      0.89      0.92        19
+          4       1.00      0.27      0.43        11
+
+avg / total       0.86      0.79      0.77        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  1  0]
+ [ 0  1  1 17  0]
+ [ 0  0  8  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.762007444092
+ CLF 2:	MIR+RF	--> Accuracy: 0.830937073836
+ 
+ Ensemble Voting:	 --> Accuracy: 0.817377751802
+ 	--> Validation Accuracy: 0.788461538462
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.50      1.00      0.67         2
+          2       0.58      0.92      0.71        12
+          3       0.94      0.89      0.92        19
+          4       1.00      0.27      0.43        11
+
+avg / total       0.86      0.79      0.77        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  1  0]
+ [ 0  1  1 17  0]
+ [ 0  1  7  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.762007444092
+ CLF 2:	SPO+RF	--> Accuracy: 0.869471018282
+ 
+ Ensemble Voting:	 --> Accuracy: 0.828018907585
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.52      0.92      0.67        12
+          3       0.94      0.84      0.89        19
+          4       1.00      0.27      0.43        11
+
+avg / total       0.86      0.77      0.75        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  1  0]
+ [ 0  1  2 16  0]
+ [ 0  0  8  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.762007444092
+ CLF 2:	LYR+RF	--> Accuracy: 0.748393778133
+ 
+ Ensemble Voting:	 --> Accuracy: 0.779136034124
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.52      1.00      0.69        12
+          3       1.00      0.89      0.94        19
+          4       1.00      0.09      0.17        11
+
+avg / total       0.88      0.77      0.72        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  1  1 17  0]
+ [ 0  0 10  0  1]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.555839921253
+ CLF 2:	LYR+SVM	--> Accuracy: 0.762074092303
+ 
+ Ensemble Voting:	 --> Accuracy: 0.683158509951
+ 	--> Validation Accuracy: 0.711538461538
+             precision    recall  f1-score   support
+
+          0       1.00      0.75      0.86         8
+          1       0.67      1.00      0.80         2
+          2       0.55      0.92      0.69        12
+          3       0.76      0.84      0.80        19
+          4       1.00      0.18      0.31        11
+
+avg / total       0.80      0.71      0.68        52
+
+[[ 6  0  1  1  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  1  0]
+ [ 0  1  2 16  0]
+ [ 0  0  6  3  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.555839921253
+ CLF 2:	MIR+kNN	--> Accuracy: 0.775867195751
+ 
+ Ensemble Voting:	 --> Accuracy: 0.696893168046
+ 	--> Validation Accuracy: 0.730769230769
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.50      1.00      0.67         2
+          2       0.58      0.92      0.71        12
+          3       0.82      0.74      0.78        19
+          4       0.75      0.27      0.40        11
+
+avg / total       0.77      0.73      0.71        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  0  1]
+ [ 0  1  4 14  0]
+ [ 0  1  4  3  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.555839921253
+ CLF 2:	SPO+kNN	--> Accuracy: 0.658482266449
+ 
+ Ensemble Voting:	 --> Accuracy: 0.610192049381
+ 	--> Validation Accuracy: 0.596153846154
+             precision    recall  f1-score   support
+
+          0       1.00      0.62      0.77         8
+          1       0.40      1.00      0.57         2
+          2       0.55      0.92      0.69        12
+          3       0.58      0.58      0.58        19
+          4       0.67      0.18      0.29        11
+
+avg / total       0.65      0.60      0.57        52
+
+[[ 5  0  0  3  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  0  1]
+ [ 0  2  6 11  0]
+ [ 0  1  3  5  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.555839921253
+ CLF 2:	LYR+kNN	--> Accuracy: 0.762015646949
+ 
+ Ensemble Voting:	 --> Accuracy: 0.659014426774
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      0.88      0.93         8
+          1       0.50      1.00      0.67         2
+          2       0.57      1.00      0.73        12
+          3       0.94      0.84      0.89        19
+          4       1.00      0.27      0.43        11
+
+avg / total       0.86      0.77      0.75        52
+
+[[ 7  1  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  1  2 16  0]
+ [ 0  0  7  1  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.555839921253
+ CLF 2:	MIR+RF	--> Accuracy: 0.830937073836
+ 
+ Ensemble Voting:	 --> Accuracy: 0.717470033939
+ 	--> Validation Accuracy: 0.75
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.50      1.00      0.67         2
+          2       0.55      0.92      0.69        12
+          3       0.94      0.84      0.89        19
+          4       0.67      0.18      0.29        11
+
+avg / total       0.78      0.75      0.72        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  0  1]
+ [ 0  1  2 16  0]
+ [ 0  1  7  1  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.555839921253
+ CLF 2:	SPO+RF	--> Accuracy: 0.869471018282
+ 
+ Ensemble Voting:	 --> Accuracy: 0.734832405385
+ 	--> Validation Accuracy: 0.730769230769
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.58      0.92      0.71        12
+          3       0.74      0.74      0.74        19
+          4       1.00      0.27      0.43        11
+
+avg / total       0.79      0.73      0.71        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  1  0]
+ [ 0  1  4 14  0]
+ [ 0  0  4  4  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.555839921253
+ CLF 2:	LYR+RF	--> Accuracy: 0.748393778133
+ 
+ Ensemble Voting:	 --> Accuracy: 0.676257856799
+ 	--> Validation Accuracy: 0.692307692308
+             precision    recall  f1-score   support
+
+          0       1.00      0.50      0.67         8
+          1       0.33      1.00      0.50         2
+          2       0.52      1.00      0.69        12
+          3       0.94      0.84      0.89        19
+          4       1.00      0.18      0.31        11
+
+avg / total       0.84      0.69      0.67        52
+
+[[ 4  3  1  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  1  2 16  0]
+ [ 0  0  8  1  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.762074092303
+ CLF 2:	MIR+kNN	--> Accuracy: 0.775867195751
+ 
+ Ensemble Voting:	 --> Accuracy: 0.779021194131
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.59      0.83      0.69        12
+          3       0.89      0.89      0.89        19
+          4       1.00      0.45      0.62        11
+
+avg / total       0.85      0.81      0.80        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 10  2  0]
+ [ 0  0  2 17  0]
+ [ 0  1  5  0  5]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.762074092303
+ CLF 2:	SPO+kNN	--> Accuracy: 0.658482266449
+ 
+ Ensemble Voting:	 --> Accuracy: 0.755117044511
+ 	--> Validation Accuracy: 0.673076923077
+             precision    recall  f1-score   support
+
+          0       1.00      0.88      0.93         8
+          1       0.50      1.00      0.67         2
+          2       0.50      0.92      0.65        12
+          3       0.75      0.63      0.69        19
+          4       1.00      0.27      0.43        11
+
+avg / total       0.77      0.67      0.66        52
+
+[[ 7  0  0  1  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  1  0]
+ [ 0  1  6 12  0]
+ [ 0  1  5  2  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.762074092303
+ CLF 2:	LYR+kNN	--> Accuracy: 0.762015646949
+ 
+ Ensemble Voting:	 --> Accuracy: 0.758686312508
+ 	--> Validation Accuracy: 0.865384615385
+             precision    recall  f1-score   support
+
+          0       1.00      0.88      0.93         8
+          1       0.67      1.00      0.80         2
+          2       0.69      0.92      0.79        12
+          3       1.00      1.00      1.00        19
+          4       0.86      0.55      0.67        11
+
+avg / total       0.88      0.87      0.86        52
+
+[[ 7  1  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  0  1]
+ [ 0  0  0 19  0]
+ [ 0  0  5  0  6]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.762074092303
+ CLF 2:	MIR+RF	--> Accuracy: 0.830937073836
+ 
+ Ensemble Voting:	 --> Accuracy: 0.814048417361
+ 	--> Validation Accuracy: 0.826923076923
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.62      0.83      0.71        12
+          3       0.95      1.00      0.97        19
+          4       0.80      0.36      0.50        11
+
+avg / total       0.84      0.83      0.81        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 10  1  1]
+ [ 0  0  0 19  0]
+ [ 0  1  6  0  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.762074092303
+ CLF 2:	SPO+RF	--> Accuracy: 0.869471018282
+ 
+ Ensemble Voting:	 --> Accuracy: 0.84514954833
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       1.00      1.00      1.00         2
+          2       0.58      0.92      0.71        12
+          3       0.94      0.89      0.92        19
+          4       0.80      0.36      0.50        11
+
+avg / total       0.84      0.81      0.80        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  0  1]
+ [ 0  0  2 17  0]
+ [ 0  0  6  1  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.762074092303
+ CLF 2:	LYR+RF	--> Accuracy: 0.748393778133
+ 
+ Ensemble Voting:	 --> Accuracy: 0.775810801111
+ 	--> Validation Accuracy: 0.826923076923
+             precision    recall  f1-score   support
+
+          0       1.00      0.62      0.77         8
+          1       0.67      1.00      0.80         2
+          2       0.63      1.00      0.77        12
+          3       0.95      1.00      0.97        19
+          4       1.00      0.45      0.62        11
+
+avg / total       0.88      0.83      0.82        52
+
+[[ 5  1  1  1  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  0  0 19  0]
+ [ 0  0  6  0  5]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+kNN	--> Accuracy: 0.775867195751
+ CLF 2:	SPO+kNN	--> Accuracy: 0.658482266449
+ 
+ Ensemble Voting:	 --> Accuracy: 0.762072041588
+ 	--> Validation Accuracy: 0.673076923077
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.40      1.00      0.57         2
+          2       0.50      0.92      0.65        12
+          3       0.85      0.58      0.69        19
+          4       0.75      0.27      0.40        11
+
+avg / total       0.75      0.67      0.66        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  0  1]
+ [ 0  1  7 11  0]
+ [ 0  2  4  2  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+kNN	--> Accuracy: 0.775867195751
+ CLF 2:	LYR+kNN	--> Accuracy: 0.762015646949
+ 
+ Ensemble Voting:	 --> Accuracy: 0.754879161668
+ 	--> Validation Accuracy: 0.846153846154
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.65      0.92      0.76        12
+          3       0.94      0.89      0.92        19
+          4       1.00      0.55      0.71        11
+
+avg / total       0.89      0.85      0.84        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  1  0]
+ [ 0  0  2 17  0]
+ [ 0  1  4  0  6]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+kNN	--> Accuracy: 0.775867195751
+ CLF 2:	MIR+RF	--> Accuracy: 0.830937073836
+ 
+ Ensemble Voting:	 --> Accuracy: 0.810362258657
+ 	--> Validation Accuracy: 0.788461538462
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.50      1.00      0.67         2
+          2       0.59      0.83      0.69        12
+          3       0.94      0.89      0.92        19
+          4       0.80      0.36      0.50        11
+
+avg / total       0.82      0.79      0.78        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 10  1  1]
+ [ 0  0  2 17  0]
+ [ 0  2  5  0  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+kNN	--> Accuracy: 0.775867195751
+ CLF 2:	SPO+RF	--> Accuracy: 0.869471018282
+ 
+ Ensemble Voting:	 --> Accuracy: 0.821124406575
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.58      0.92      0.71        12
+          3       0.83      0.79      0.81        19
+          4       1.00      0.36      0.53        11
+
+avg / total       0.83      0.77      0.76        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  1  0]
+ [ 0  0  4 15  0]
+ [ 0  1  4  2  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+kNN	--> Accuracy: 0.775867195751
+ CLF 2:	LYR+RF	--> Accuracy: 0.748393778133
+ 
+ Ensemble Voting:	 --> Accuracy: 0.768672265116
+ 	--> Validation Accuracy: 0.826923076923
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.60      1.00      0.75        12
+          3       1.00      0.89      0.94        19
+          4       1.00      0.36      0.53        11
+
+avg / total       0.89      0.83      0.82        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  0  2 17  0]
+ [ 0  1  6  0  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+kNN	--> Accuracy: 0.658482266449
+ CLF 2:	LYR+kNN	--> Accuracy: 0.762015646949
+ 
+ Ensemble Voting:	 --> Accuracy: 0.734481733264
+ 	--> Validation Accuracy: 0.692307692308
+             precision    recall  f1-score   support
+
+          0       1.00      0.88      0.93         8
+          1       0.40      1.00      0.57         2
+          2       0.48      1.00      0.65        12
+          3       1.00      0.63      0.77        19
+          4       1.00      0.27      0.43        11
+
+avg / total       0.86      0.69      0.69        52
+
+[[ 7  1  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  1  6 12  0]
+ [ 0  1  7  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+kNN	--> Accuracy: 0.658482266449
+ CLF 2:	MIR+RF	--> Accuracy: 0.830937073836
+ 
+ Ensemble Voting:	 --> Accuracy: 0.782588411414
+ 	--> Validation Accuracy: 0.692307692308
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.40      1.00      0.57         2
+          2       0.48      0.92      0.63        12
+          3       1.00      0.63      0.77        19
+          4       0.75      0.27      0.40        11
+
+avg / total       0.80      0.69      0.69        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  0  1]
+ [ 0  1  6 12  0]
+ [ 0  2  6  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+kNN	--> Accuracy: 0.658482266449
+ CLF 2:	SPO+RF	--> Accuracy: 0.869471018282
+ 
+ Ensemble Voting:	 --> Accuracy: 0.793350559332
+ 	--> Validation Accuracy: 0.673076923077
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.50      1.00      0.67         2
+          2       0.52      1.00      0.69        12
+          3       0.73      0.58      0.65        19
+          4       1.00      0.18      0.31        11
+
+avg / total       0.77      0.67      0.64        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  1  7 11  0]
+ [ 0  1  4  4  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+kNN	--> Accuracy: 0.658482266449
+ CLF 2:	LYR+RF	--> Accuracy: 0.748393778133
+ 
+ Ensemble Voting:	 --> Accuracy: 0.737869513058
+ 	--> Validation Accuracy: 0.615384615385
+             precision    recall  f1-score   support
+
+          0       1.00      0.62      0.77         8
+          1       0.29      1.00      0.44         2
+          2       0.46      1.00      0.63        12
+          3       0.92      0.63      0.75        19
+          4       1.00      0.09      0.17        11
+
+avg / total       0.82      0.62      0.59        52
+
+[[ 5  3  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  1  6 12  0]
+ [ 0  1  8  1  1]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+kNN	--> Accuracy: 0.762015646949
+ CLF 2:	MIR+RF	--> Accuracy: 0.830937073836
+ 
+ Ensemble Voting:	 --> Accuracy: 0.800194817845
+ 	--> Validation Accuracy: 0.846153846154
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.65      0.92      0.76        12
+          3       1.00      1.00      1.00        19
+          4       0.80      0.36      0.50        11
+
+avg / total       0.86      0.85      0.83        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  0  1]
+ [ 0  0  0 19  0]
+ [ 0  1  6  0  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+kNN	--> Accuracy: 0.762015646949
+ CLF 2:	SPO+RF	--> Accuracy: 0.869471018282
+ 
+ Ensemble Voting:	 --> Accuracy: 0.824336850308
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       1.00      1.00      1.00         2
+          2       0.55      0.92      0.69        12
+          3       1.00      0.89      0.94        19
+          4       0.80      0.36      0.50        11
+
+avg / total       0.85      0.81      0.80        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  0  1]
+ [ 0  0  2 17  0]
+ [ 0  0  7  0  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+kNN	--> Accuracy: 0.762015646949
+ CLF 2:	LYR+RF	--> Accuracy: 0.748393778133
+ 
+ Ensemble Voting:	 --> Accuracy: 0.768734811898
+ 	--> Validation Accuracy: 0.865384615385
+             precision    recall  f1-score   support
+
+          0       1.00      0.88      0.93         8
+          1       0.67      1.00      0.80         2
+          2       0.67      1.00      0.80        12
+          3       1.00      1.00      1.00        19
+          4       1.00      0.45      0.62        11
+
+avg / total       0.91      0.87      0.86        52
+
+[[ 7  1  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  0  0 19  0]
+ [ 0  0  6  0  5]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+RF	--> Accuracy: 0.830937073836
+ CLF 2:	SPO+RF	--> Accuracy: 0.869471018282
+ 
+ Ensemble Voting:	 --> Accuracy: 0.865843304931
+ 	--> Validation Accuracy: 0.788461538462
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.55      0.92      0.69        12
+          3       1.00      0.89      0.94        19
+          4       0.75      0.27      0.40        11
+
+avg / total       0.83      0.79      0.77        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 11  0  1]
+ [ 0  0  2 17  0]
+ [ 0  1  7  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+RF	--> Accuracy: 0.830937073836
+ CLF 2:	LYR+RF	--> Accuracy: 0.748393778133
+ 
+ Ensemble Voting:	 --> Accuracy: 0.813750038451
+ 	--> Validation Accuracy: 0.826923076923
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       0.67      1.00      0.80         2
+          2       0.60      1.00      0.75        12
+          3       1.00      1.00      1.00        19
+          4       1.00      0.18      0.31        11
+
+avg / total       0.89      0.83      0.79        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  0  0 19  0]
+ [ 0  1  8  0  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+RF	--> Accuracy: 0.869471018282
+ CLF 2:	LYR+RF	--> Accuracy: 0.748393778133
+ 
+ Ensemble Voting:	 --> Accuracy: 0.830993468475
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       1.00      1.00      1.00         2
+          2       0.57      1.00      0.73        12
+          3       0.94      0.89      0.92        19
+          4       1.00      0.27      0.43        11
+
+avg / total       0.88      0.81      0.79        52
+
+[[ 8  0  0  0  0]
+ [ 0  2  0  0  0]
+ [ 0  0 12  0  0]
+ [ 0  0  2 17  0]
+ [ 0  0  7  1  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	SPO+SVM	--> Accuracy: 0.348366137436
+ 
+ Ensemble Voting:	 --> Accuracy: 0.348366137436
+ 	--> Validation Accuracy: 0.384615384615
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00         2
+          1       0.00      0.00      0.00         4
+          2       0.00      0.00      0.00        17
+          3       0.38      1.00      0.56        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.15      0.38      0.21        52
+
+[[ 0  0  0  2  0]
+ [ 0  0  0  4  0]
+ [ 0  0  0 17  0]
+ [ 0  0  0 20  0]
+ [ 0  0  0  9  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	LYR+SVM	--> Accuracy: 0.773645788932
+ 
+ Ensemble Voting:	 --> Accuracy: 0.624991511508
+ 	--> Validation Accuracy: 0.692307692308
+             precision    recall  f1-score   support
+
+          0       0.50      0.50      0.50         2
+          1       0.00      0.00      0.00         4
+          2       0.67      0.94      0.78        17
+          3       0.73      0.95      0.83        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.52      0.69      0.59        52
+
+[[ 1  0  1  0  0]
+ [ 1  0  1  2  0]
+ [ 0  0 16  1  0]
+ [ 0  0  1 19  0]
+ [ 0  0  5  4  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	MIR+kNN	--> Accuracy: 0.845978102767
+ 
+ Ensemble Voting:	 --> Accuracy: 0.673340496185
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      0.75      0.86         4
+          2       0.83      0.88      0.86        17
+          3       0.69      1.00      0.82        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.65      0.77      0.70        52
+
+[[ 2  0  0  0  0]
+ [ 0  3  0  1  0]
+ [ 0  0 15  2  0]
+ [ 0  0  0 20  0]
+ [ 0  0  3  6  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	SPO+kNN	--> Accuracy: 0.855080168276
+ 
+ Ensemble Voting:	 --> Accuracy: 0.710107735733
+ 	--> Validation Accuracy: 0.730769230769
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.72      0.76      0.74        17
+          3       0.68      0.95      0.79        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.61      0.73      0.66        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 13  4  0]
+ [ 0  0  1 19  0]
+ [ 0  0  4  5  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	LYR+kNN	--> Accuracy: 0.81363378493
+ 
+ Ensemble Voting:	 --> Accuracy: 0.666042407304
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      0.50      0.67         2
+          1       1.00      1.00      1.00         4
+          2       0.75      0.88      0.81        17
+          3       0.74      1.00      0.85        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.65      0.77      0.69        52
+
+[[ 1  0  1  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 15  2  0]
+ [ 0  0  0 20  0]
+ [ 0  0  4  5  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	MIR+RF	--> Accuracy: 0.848183514016
+ 
+ Ensemble Voting:	 --> Accuracy: 0.678937788656
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      0.75      0.86         4
+          2       0.71      0.88      0.79        17
+          3       0.77      1.00      0.87        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.64      0.77      0.70        52
+
+[[ 2  0  0  0  0]
+ [ 0  3  0  1  0]
+ [ 0  0 15  2  0]
+ [ 0  0  0 20  0]
+ [ 0  0  6  3  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	SPO+RF	--> Accuracy: 0.827362598489
+ 
+ Ensemble Voting:	 --> Accuracy: 0.700362038937
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.79      0.88      0.83        17
+          3       0.70      0.95      0.81        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.64      0.77      0.70        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 15  2  0]
+ [ 0  0  1 19  0]
+ [ 0  0  3  6  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	LYR+RF	--> Accuracy: 0.769374759224
+ 
+ Ensemble Voting:	 --> Accuracy: 0.624404589791
+ 	--> Validation Accuracy: 0.673076923077
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00         2
+          1       0.50      0.50      0.50         4
+          2       0.64      0.82      0.72        17
+          3       0.76      0.95      0.84        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.54      0.67      0.60        52
+
+[[ 0  1  1  0  0]
+ [ 1  2  1  0  0]
+ [ 0  1 14  2  0]
+ [ 0  0  1 19  0]
+ [ 0  0  5  4  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	LYR+SVM	--> Accuracy: 0.773645788932
+ 
+ Ensemble Voting:	 --> Accuracy: 0.624991511508
+ 	--> Validation Accuracy: 0.692307692308
+             precision    recall  f1-score   support
+
+          0       0.50      0.50      0.50         2
+          1       0.00      0.00      0.00         4
+          2       0.67      0.94      0.78        17
+          3       0.73      0.95      0.83        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.52      0.69      0.59        52
+
+[[ 1  0  1  0  0]
+ [ 1  0  1  2  0]
+ [ 0  0 16  1  0]
+ [ 0  0  1 19  0]
+ [ 0  0  5  4  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	MIR+kNN	--> Accuracy: 0.845978102767
+ 
+ Ensemble Voting:	 --> Accuracy: 0.673340496185
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      0.75      0.86         4
+          2       0.83      0.88      0.86        17
+          3       0.69      1.00      0.82        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.65      0.77      0.70        52
+
+[[ 2  0  0  0  0]
+ [ 0  3  0  1  0]
+ [ 0  0 15  2  0]
+ [ 0  0  0 20  0]
+ [ 0  0  3  6  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	SPO+kNN	--> Accuracy: 0.855080168276
+ 
+ Ensemble Voting:	 --> Accuracy: 0.710107735733
+ 	--> Validation Accuracy: 0.730769230769
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.72      0.76      0.74        17
+          3       0.68      0.95      0.79        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.61      0.73      0.66        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 13  4  0]
+ [ 0  0  1 19  0]
+ [ 0  0  4  5  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	LYR+kNN	--> Accuracy: 0.81363378493
+ 
+ Ensemble Voting:	 --> Accuracy: 0.666042407304
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      0.50      0.67         2
+          1       1.00      1.00      1.00         4
+          2       0.75      0.88      0.81        17
+          3       0.74      1.00      0.85        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.65      0.77      0.69        52
+
+[[ 1  0  1  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 15  2  0]
+ [ 0  0  0 20  0]
+ [ 0  0  4  5  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	MIR+RF	--> Accuracy: 0.848183514016
+ 
+ Ensemble Voting:	 --> Accuracy: 0.678937788656
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      0.75      0.86         4
+          2       0.71      0.88      0.79        17
+          3       0.77      1.00      0.87        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.64      0.77      0.70        52
+
+[[ 2  0  0  0  0]
+ [ 0  3  0  1  0]
+ [ 0  0 15  2  0]
+ [ 0  0  0 20  0]
+ [ 0  0  6  3  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	SPO+RF	--> Accuracy: 0.827362598489
+ 
+ Ensemble Voting:	 --> Accuracy: 0.700362038937
+ 	--> Validation Accuracy: 0.769230769231
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.79      0.88      0.83        17
+          3       0.70      0.95      0.81        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.64      0.77      0.70        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 15  2  0]
+ [ 0  0  1 19  0]
+ [ 0  0  3  6  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+SVM	--> Accuracy: 0.348366137436
+ CLF 2:	LYR+RF	--> Accuracy: 0.769374759224
+ 
+ Ensemble Voting:	 --> Accuracy: 0.624404589791
+ 	--> Validation Accuracy: 0.673076923077
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00         2
+          1       0.50      0.50      0.50         4
+          2       0.64      0.82      0.72        17
+          3       0.76      0.95      0.84        20
+          4       0.00      0.00      0.00         9
+
+avg / total       0.54      0.67      0.60        52
+
+[[ 0  1  1  0  0]
+ [ 1  2  1  0  0]
+ [ 0  1 14  2  0]
+ [ 0  0  1 19  0]
+ [ 0  0  5  4  0]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.773645788932
+ CLF 2:	MIR+kNN	--> Accuracy: 0.845978102767
+ 
+ Ensemble Voting:	 --> Accuracy: 0.800879163133
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       0.67      1.00      0.80         2
+          1       1.00      0.50      0.67         4
+          2       0.68      1.00      0.81        17
+          3       0.95      0.95      0.95        20
+          4       1.00      0.22      0.36         9
+
+avg / total       0.86      0.81      0.78        52
+
+[[ 2  0  0  0  0]
+ [ 1  2  0  1  0]
+ [ 0  0 17  0  0]
+ [ 0  0  1 19  0]
+ [ 0  0  7  0  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.773645788932
+ CLF 2:	SPO+kNN	--> Accuracy: 0.855080168276
+ 
+ Ensemble Voting:	 --> Accuracy: 0.803849197805
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       0.67      1.00      0.80         2
+          1       1.00      0.75      0.86         4
+          2       0.65      1.00      0.79        17
+          3       1.00      0.90      0.95        20
+          4       1.00      0.22      0.36         9
+
+avg / total       0.87      0.81      0.78        52
+
+[[ 2  0  0  0  0]
+ [ 1  3  0  0  0]
+ [ 0  0 17  0  0]
+ [ 0  0  2 18  0]
+ [ 0  0  7  0  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.773645788932
+ CLF 2:	LYR+kNN	--> Accuracy: 0.81363378493
+ 
+ Ensemble Voting:	 --> Accuracy: 0.786676422207
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       0.50      0.50      0.50         2
+          1       1.00      0.75      0.86         4
+          2       0.67      0.94      0.78        17
+          3       1.00      0.95      0.97        20
+          4       0.75      0.33      0.46         9
+
+avg / total       0.83      0.81      0.79        52
+
+[[ 1  0  1  0  0]
+ [ 1  3  0  0  0]
+ [ 0  0 16  0  1]
+ [ 0  0  1 19  0]
+ [ 0  0  6  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.773645788932
+ CLF 2:	MIR+RF	--> Accuracy: 0.848183514016
+ 
+ Ensemble Voting:	 --> Accuracy: 0.821464246531
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       0.67      1.00      0.80         2
+          1       1.00      0.50      0.67         4
+          2       0.68      1.00      0.81        17
+          3       0.95      0.95      0.95        20
+          4       1.00      0.22      0.36         9
+
+avg / total       0.86      0.81      0.78        52
+
+[[ 2  0  0  0  0]
+ [ 1  2  0  1  0]
+ [ 0  0 17  0  0]
+ [ 0  0  1 19  0]
+ [ 0  0  7  0  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.773645788932
+ CLF 2:	SPO+RF	--> Accuracy: 0.827362598489
+ 
+ Ensemble Voting:	 --> Accuracy: 0.800108592639
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       0.67      1.00      0.80         2
+          1       1.00      0.75      0.86         4
+          2       0.65      1.00      0.79        17
+          3       1.00      0.90      0.95        20
+          4       1.00      0.22      0.36         9
+
+avg / total       0.87      0.81      0.78        52
+
+[[ 2  0  0  0  0]
+ [ 1  3  0  0  0]
+ [ 0  0 17  0  0]
+ [ 0  0  2 18  0]
+ [ 0  0  7  0  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+SVM	--> Accuracy: 0.773645788932
+ CLF 2:	LYR+RF	--> Accuracy: 0.769374759224
+ 
+ Ensemble Voting:	 --> Accuracy: 0.780013754433
+ 	--> Validation Accuracy: 0.788461538462
+             precision    recall  f1-score   support
+
+          0       0.50      0.50      0.50         2
+          1       0.50      0.50      0.50         4
+          2       0.68      0.88      0.77        17
+          3       1.00      0.95      0.97        20
+          4       0.80      0.44      0.57         9
+
+avg / total       0.80      0.79      0.78        52
+
+[[ 1  1  0  0  0]
+ [ 1  2  1  0  0]
+ [ 0  1 15  0  1]
+ [ 0  0  1 19  0]
+ [ 0  0  5  0  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+kNN	--> Accuracy: 0.845978102767
+ CLF 2:	SPO+kNN	--> Accuracy: 0.855080168276
+ 
+ Ensemble Voting:	 --> Accuracy: 0.855495862684
+ 	--> Validation Accuracy: 0.865384615385
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.77      1.00      0.87        17
+          3       0.90      0.95      0.93        20
+          4       1.00      0.33      0.50         9
+
+avg / total       0.89      0.87      0.84        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 17  0  0]
+ [ 0  0  1 19  0]
+ [ 0  0  4  2  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+kNN	--> Accuracy: 0.845978102767
+ CLF 2:	LYR+kNN	--> Accuracy: 0.81363378493
+ 
+ Ensemble Voting:	 --> Accuracy: 0.824392358746
+ 	--> Validation Accuracy: 0.884615384615
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.76      0.94      0.84        17
+          3       1.00      1.00      1.00        20
+          4       0.80      0.44      0.57         9
+
+avg / total       0.89      0.88      0.87        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 16  0  1]
+ [ 0  0  0 20  0]
+ [ 0  0  5  0  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+kNN	--> Accuracy: 0.845978102767
+ CLF 2:	MIR+RF	--> Accuracy: 0.848183514016
+ 
+ Ensemble Voting:	 --> Accuracy: 0.883338635894
+ 	--> Validation Accuracy: 0.846153846154
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      0.75      0.86         4
+          2       0.73      0.94      0.82        17
+          3       0.95      1.00      0.98        20
+          4       0.75      0.33      0.46         9
+
+avg / total       0.85      0.85      0.83        52
+
+[[ 2  0  0  0  0]
+ [ 0  3  0  1  0]
+ [ 0  0 16  0  1]
+ [ 0  0  0 20  0]
+ [ 0  0  6  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+kNN	--> Accuracy: 0.845978102767
+ CLF 2:	SPO+RF	--> Accuracy: 0.827362598489
+ 
+ Ensemble Voting:	 --> Accuracy: 0.848121172305
+ 	--> Validation Accuracy: 0.884615384615
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.81      1.00      0.89        17
+          3       0.90      0.95      0.93        20
+          4       1.00      0.44      0.62         9
+
+avg / total       0.90      0.88      0.87        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 17  0  0]
+ [ 0  0  1 19  0]
+ [ 0  0  3  2  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+kNN	--> Accuracy: 0.845978102767
+ CLF 2:	LYR+RF	--> Accuracy: 0.769374759224
+ 
+ Ensemble Voting:	 --> Accuracy: 0.821232515831
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       0.67      1.00      0.80         2
+          1       0.75      0.75      0.75         4
+          2       0.67      0.94      0.78        17
+          3       1.00      0.95      0.97        20
+          4       1.00      0.22      0.36         9
+
+avg / total       0.86      0.81      0.78        52
+
+[[ 2  0  0  0  0]
+ [ 1  3  0  0  0]
+ [ 0  1 16  0  0]
+ [ 0  0  1 19  0]
+ [ 0  0  7  0  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+kNN	--> Accuracy: 0.855080168276
+ CLF 2:	LYR+kNN	--> Accuracy: 0.81363378493
+ 
+ Ensemble Voting:	 --> Accuracy: 0.816955121585
+ 	--> Validation Accuracy: 0.865384615385
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.71      1.00      0.83        17
+          3       1.00      0.95      0.97        20
+          4       1.00      0.33      0.50         9
+
+avg / total       0.90      0.87      0.85        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 17  0  0]
+ [ 0  0  1 19  0]
+ [ 0  0  6  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+kNN	--> Accuracy: 0.855080168276
+ CLF 2:	MIR+RF	--> Accuracy: 0.848183514016
+ 
+ Ensemble Voting:	 --> Accuracy: 0.851809491584
+ 	--> Validation Accuracy: 0.846153846154
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.70      0.94      0.80        17
+          3       0.95      0.95      0.95        20
+          4       1.00      0.33      0.50         9
+
+avg / total       0.88      0.85      0.83        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 16  1  0]
+ [ 0  0  1 19  0]
+ [ 0  0  6  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+kNN	--> Accuracy: 0.855080168276
+ CLF 2:	SPO+RF	--> Accuracy: 0.827362598489
+ 
+ Ensemble Voting:	 --> Accuracy: 0.847584485761
+ 	--> Validation Accuracy: 0.846153846154
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.76      0.94      0.84        17
+          3       0.86      0.95      0.90        20
+          4       1.00      0.33      0.50         9
+
+avg / total       0.87      0.85      0.83        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 16  1  0]
+ [ 0  0  1 19  0]
+ [ 0  0  4  2  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+kNN	--> Accuracy: 0.855080168276
+ CLF 2:	LYR+RF	--> Accuracy: 0.769374759224
+ 
+ Ensemble Voting:	 --> Accuracy: 0.813964455264
+ 	--> Validation Accuracy: 0.788461538462
+             precision    recall  f1-score   support
+
+          0       0.67      1.00      0.80         2
+          1       0.75      0.75      0.75         4
+          2       0.64      0.94      0.76        17
+          3       1.00      0.90      0.95        20
+          4       1.00      0.22      0.36         9
+
+avg / total       0.85      0.79      0.76        52
+
+[[ 2  0  0  0  0]
+ [ 1  3  0  0  0]
+ [ 0  1 16  0  0]
+ [ 0  0  2 18  0]
+ [ 0  0  7  0  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+kNN	--> Accuracy: 0.81363378493
+ CLF 2:	MIR+RF	--> Accuracy: 0.848183514016
+ 
+ Ensemble Voting:	 --> Accuracy: 0.817138880222
+ 	--> Validation Accuracy: 0.884615384615
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.74      1.00      0.85        17
+          3       1.00      1.00      1.00        20
+          4       1.00      0.33      0.50         9
+
+avg / total       0.91      0.88      0.86        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 17  0  0]
+ [ 0  0  0 20  0]
+ [ 0  0  6  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+kNN	--> Accuracy: 0.81363378493
+ CLF 2:	SPO+RF	--> Accuracy: 0.827362598489
+ 
+ Ensemble Voting:	 --> Accuracy: 0.823738781495
+ 	--> Validation Accuracy: 0.884615384615
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.74      1.00      0.85        17
+          3       1.00      0.95      0.97        20
+          4       1.00      0.44      0.62         9
+
+avg / total       0.91      0.88      0.87        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 17  0  0]
+ [ 0  0  1 19  0]
+ [ 0  0  5  0  4]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	LYR+kNN	--> Accuracy: 0.81363378493
+ CLF 2:	LYR+RF	--> Accuracy: 0.769374759224
+ 
+ Ensemble Voting:	 --> Accuracy: 0.78662413632
+ 	--> Validation Accuracy: 0.788461538462
+             precision    recall  f1-score   support
+
+          0       0.50      0.50      0.50         2
+          1       0.60      0.75      0.67         4
+          2       0.68      0.88      0.77        17
+          3       1.00      0.95      0.97        20
+          4       0.75      0.33      0.46         9
+
+avg / total       0.80      0.79      0.78        52
+
+[[ 1  1  0  0  0]
+ [ 1  3  0  0  0]
+ [ 0  1 15  0  1]
+ [ 0  0  1 19  0]
+ [ 0  0  6  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+RF	--> Accuracy: 0.848183514016
+ CLF 2:	SPO+RF	--> Accuracy: 0.827362598489
+ 
+ Ensemble Voting:	 --> Accuracy: 0.840984474629
+ 	--> Validation Accuracy: 0.865384615385
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         4
+          2       0.71      1.00      0.83        17
+          3       1.00      0.95      0.97        20
+          4       1.00      0.33      0.50         9
+
+avg / total       0.90      0.87      0.85        52
+
+[[ 2  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0 17  0  0]
+ [ 0  0  1 19  0]
+ [ 0  0  6  0  3]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	MIR+RF	--> Accuracy: 0.848183514016
+ CLF 2:	LYR+RF	--> Accuracy: 0.769374759224
+ 
+ Ensemble Voting:	 --> Accuracy: 0.817901240536
+ 	--> Validation Accuracy: 0.807692307692
+             precision    recall  f1-score   support
+
+          0       0.67      1.00      0.80         2
+          1       0.75      0.75      0.75         4
+          2       0.67      0.94      0.78        17
+          3       1.00      0.95      0.97        20
+          4       1.00      0.22      0.36         9
+
+avg / total       0.86      0.81      0.78        52
+
+[[ 2  0  0  0  0]
+ [ 1  3  0  0  0]
+ [ 0  1 16  0  0]
+ [ 0  0  1 19  0]
+ [ 0  0  7  0  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - CLF trained with
+ - ############:	0
+ - USER:	spotify
+ - PLAYLIST:	Peaceful Piano
+ - PL ID	37i9dQZF1DX4sWSpwq3LiO
+ - - - - - - - - - - - - - - -
+ - ############:	1
+ - USER:	spotify_germany
+ - PLAYLIST:	Techno Bunker
+ - PL ID	37i9dQZF1DX6J5NfMJS675
+ - - - - - - - - - - - - - - -
+ - ############:	2
+ - USER:	spotify
+ - PLAYLIST:	All Out 80s
+ - PL ID	37i9dQZF1DX4UtSsGT1Sbe
+ - - - - - - - - - - - - - - -
+ - ############:	3
+ - USER:	spotify
+ - PLAYLIST:	¡Viva Latino!
+ - PL ID	37i9dQZF1DX10zKzsJ2jva
+ - - - - - - - - - - - - - - -
+ - ############:	4
+ - USER:	spotify
+ - PLAYLIST:	Rock Classics
+ - PL ID	37i9dQZF1DWXRqgorJj26U
+ - - - - - - - - - - - - - - -
+ -------- Trained CLF --------
+ CLF 1:	SPO+RF	--> Accuracy: 0.827362598489
+ CLF 2:	LYR+RF	--> Accuracy: 0.769374759224
+ 
+ Ensemble Voting:	 --> Accuracy: 0.803502634435
+ 	--> Validation Accuracy: 0.788461538462
+             precision    recall  f1-score   support
+
+          0       0.67      1.00      0.80         2
+          1       0.75      0.75      0.75         4
+          2       0.64      0.94      0.76        17
+          3       1.00      0.90      0.95        20
+          4       1.00      0.22      0.36         9
+
+avg / total       0.85      0.79      0.76        52
+
+[[ 2  0  0  0  0]
+ [ 1  3  0  0  0]
+ [ 0  1 16  0  0]
+ [ 0  0  2 18  0]
+ [ 0  0  7  0  2]]
+ - - - - - - - - - - - 
+ # * # * # * # * # * # * # * #

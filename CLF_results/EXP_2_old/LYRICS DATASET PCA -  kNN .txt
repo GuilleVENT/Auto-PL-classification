@@ -1,0 +1,60 @@
+ # * # * # * # * # * # * # * #
+ - Results of EXP_2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:All Out 80s
+ - PL ID37i9dQZF1DX4UtSsGT1Sbe
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ ----- LYRICS DATASET PCA-----
+ - kNN  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of KNeighborsClassifier(algorithm='auto', leaf_size=1, metric='minkowski',
+           metric_params=None, n_jobs=-1, n_neighbors=5, p=1,
+           weights='uniform')>
+ --> Validation: 
+ - Accuracy: 63.77%
+             precision    recall  f1-score   support
+
+          0       0.25      1.00      0.40         5
+          1       1.00      0.67      0.80         3
+          2       0.71      0.52      0.60        23
+          3       1.00      1.00      1.00        20
+          4       0.50      0.28      0.36        18
+
+avg / total       0.72      0.64      0.65        69
+
+[[ 5  0  0  0  0]
+ [ 1  2  0  0  0]
+ [ 6  0 12  0  5]
+ [ 0  0  0 20  0]
+ [ 8  0  5  0  5]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #

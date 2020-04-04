@@ -1,0 +1,594 @@
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -SVM Classifier 
+ - PARAMETERS:
+{"C": 100, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 0.01, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 97.50%
+             precision    recall  f1-score   support
+
+          0       0.83      1.00      0.91         5
+          1       1.00      0.97      0.99        35
+
+avg / total       0.98      0.97      0.98        40
+
+[[ 5  0]
+ [ 1 34]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 3 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -SVM Classifier 
+ - PARAMETERS:
+{"C": 1, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 0.1, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 73.33%
+             precision    recall  f1-score   support
+
+          0       0.67      0.40      0.50         5
+          1       0.78      0.86      0.82        36
+          2       0.65      0.58      0.61        19
+
+avg / total       0.73      0.73      0.72        60
+
+[[ 2  1  2]
+ [ 1 31  4]
+ [ 0  8 11]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 4 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -SVM Classifier 
+ - PARAMETERS:
+{"C": 1000, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 0.001, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 82.28%
+             precision    recall  f1-score   support
+
+          0       0.75      0.50      0.60         6
+          1       0.81      0.92      0.86        37
+          2       0.67      0.56      0.61        18
+          3       1.00      1.00      1.00        18
+
+avg / total       0.82      0.82      0.81        79
+
+[[ 3  0  3  0]
+ [ 1 34  2  0]
+ [ 0  8 10  0]
+ [ 0  0  0 18]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 5 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify_germany
+ - PLAYLIST:Pop Remix
+ - PL ID37i9dQZF1DXcZDD7cfEKhW
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -SVM Classifier 
+ - PARAMETERS:
+{"C": 1, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 0.1, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 56.90%
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00         1
+          1       0.46      0.39      0.42        41
+          2       0.77      0.48      0.59        21
+          3       0.87      0.95      0.91        21
+          4       0.47      0.62      0.53        32
+
+avg / total       0.59      0.57      0.57       116
+
+[[ 0  0  1  0  0]
+ [ 2 16  2  0 21]
+ [ 0  9 10  0  2]
+ [ 0  1  0 20  0]
+ [ 0  9  0  3 20]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 6 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify_germany
+ - PLAYLIST:Pop Remix
+ - PL ID37i9dQZF1DXcZDD7cfEKhW
+ - ############:
+5
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -SVM Classifier 
+ - PARAMETERS:
+{"C": 10000, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 0.001, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 63.03%
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00         2
+          1       0.76      0.53      0.62        36
+          2       0.43      0.75      0.55        16
+          3       0.89      0.89      0.89        18
+          4       0.60      0.63      0.62        41
+          5       0.67      0.33      0.44         6
+
+avg / total       0.66      0.63      0.63       119
+
+[[ 0  0  1  0  0  1]
+ [ 1 19  2  1 13  0]
+ [ 1  1 12  0  2  0]
+ [ 0  0  2 16  0  0]
+ [ 0  5  9  1 26  0]
+ [ 0  0  2  0  2  2]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 7 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify_germany
+ - PLAYLIST:Pop Remix
+ - PL ID37i9dQZF1DXcZDD7cfEKhW
+ - ############:
+5
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+6
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -SVM Classifier 
+ - PARAMETERS:
+{"C": 10000, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 0.0001, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 75.00%
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00         1
+          1       0.62      0.43      0.51        35
+          2       0.79      0.55      0.65        20
+          3       0.86      0.86      0.86        14
+          4       0.55      0.71      0.62        38
+          5       0.00      0.00      0.00         4
+          6       0.89      0.97      0.92        88
+
+avg / total       0.74      0.75      0.74       200
+
+[[ 0  0  0  0  0  0  1]
+ [ 1 15  2  0 14  0  3]
+ [ 0  3 11  0  5  0  1]
+ [ 0  0  0 12  1  0  1]
+ [ 0  5  1  2 27  0  3]
+ [ 1  0  0  0  1  0  2]
+ [ 1  1  0  0  1  0 85]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 8 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify_germany
+ - PLAYLIST:Pop Remix
+ - PL ID37i9dQZF1DXcZDD7cfEKhW
+ - ############:
+5
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+6
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+7
+ - USER:
+spotify_uk_
+ - PLAYLIST:Massive Dance Hits
+ - PL ID37i9dQZF1DX1N5uK98ms5p
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -SVM Classifier 
+ - PARAMETERS:
+{"C": 10000, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 0.0001, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 60.80%
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00         1
+          1       0.50      0.41      0.45        39
+          2       0.65      0.52      0.58        21
+          3       0.91      1.00      0.95        21
+          4       0.00      0.00      0.00        42
+          5       1.00      0.25      0.40         4
+          6       0.91      0.90      0.90        86
+          7       0.30      0.72      0.42        36
+
+avg / total       0.58      0.61      0.58       250
+
+[[ 0  0  0  0  0  0  1  0]
+ [ 2 16  3  0  0  0  2 16]
+ [ 0  0 11  0  0  0  1  9]
+ [ 0  0  0 21  0  0  0  0]
+ [ 0  9  0  2  0  0  1 30]
+ [ 1  0  1  0  0  1  0  1]
+ [ 1  1  1  0  0  0 77  6]
+ [ 0  6  1  0  0  0  3 26]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 9 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify_germany
+ - PLAYLIST:Pop Remix
+ - PL ID37i9dQZF1DXcZDD7cfEKhW
+ - ############:
+5
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+6
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+7
+ - USER:
+spotify_uk_
+ - PLAYLIST:Massive Dance Hits
+ - PL ID37i9dQZF1DX1N5uK98ms5p
+ - ############:
+8
+ - USER:
+spotify_uk_
+ - PLAYLIST:Yoga & Meditation
+ - PL ID37i9dQZF1DX9uKNf5jGX6m
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -SVM Classifier 
+ - PARAMETERS:
+{"C": 1000, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 0.001, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 66.27%
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00         1
+          1       0.63      0.31      0.41        39
+          2       0.79      0.52      0.63        21
+          3       0.96      0.96      0.96        28
+          4       0.20      0.14      0.16        29
+          5       1.00      0.20      0.33         5
+          6       0.89      0.96      0.92        91
+          7       0.36      0.68      0.47        37
+          8       0.00      0.00      0.00         1
+
+avg / total       0.69      0.66      0.65       252
+
+[[ 0  0  0  0  0  0  1  0  0]
+ [ 2 12  2  0  8  0  2 13  0]
+ [ 0  2 11  0  1  0  0  7  0]
+ [ 0  0  0 27  0  0  0  1  0]
+ [ 0  3  0  0  4  0  2 20  0]
+ [ 0  1  0  1  0  1  2  0  0]
+ [ 0  0  0  0  0  0 87  4  0]
+ [ 0  1  1  0  7  0  3 25  0]
+ [ 0  0  0  0  0  0  1  0  0]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - 10 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify
+ - PLAYLIST:mint
+ - PL ID37i9dQZF1DX4dyzvuaRJ0n
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify_germany
+ - PLAYLIST:Pop Remix
+ - PL ID37i9dQZF1DXcZDD7cfEKhW
+ - ############:
+5
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+6
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+7
+ - USER:
+spotify_uk_
+ - PLAYLIST:Massive Dance Hits
+ - PL ID37i9dQZF1DX1N5uK98ms5p
+ - ############:
+8
+ - USER:
+spotify_uk_
+ - PLAYLIST:Yoga & Meditation
+ - PL ID37i9dQZF1DX9uKNf5jGX6m
+ - ############:
+9
+ - USER:
+spotify_espa%C3%B1a
+ - PLAYLIST:mint Latin
+ - PL ID37i9dQZF1DX07RJCJCOYpi
+ -------- RESULTS --------
+ ----- LYR DATASET PCA-----
+ -SVM Classifier 
+ - PARAMETERS:
+{"C": 1000, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 0.001, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 61.63%
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00         1
+          1       0.43      0.41      0.42        37
+          2       0.75      0.52      0.62        23
+          3       0.89      0.89      0.89        19
+          4       0.00      0.00      0.00        36
+          5       0.00      0.00      0.00         4
+          6       0.86      0.93      0.90        75
+          7       0.44      0.79      0.57        57
+          8       0.00      0.00      0.00         1
+          9       0.00      0.00      0.00         5
+
+avg / total       0.54      0.62      0.57       258
+
+[[ 0  0  0  0  0  0  1  0  0  0]
+ [ 2 15  2  0  0  0  2 16  0  0]
+ [ 0  3 12  0  0  0  0  8  0  0]
+ [ 0  0  0 17  0  0  1  1  0  0]
+ [ 0  7  0  1  0  0  2 26  0  0]
+ [ 2  0  0  1  0  0  0  1  0  0]
+ [ 0  1  0  0  0  0 70  4  0  0]
+ [ 0  7  0  0  1  0  4 45  0  0]
+ [ 0  0  1  0  0  0  0  0  0  0]
+ [ 0  2  1  0  0  0  1  1  0  0]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #

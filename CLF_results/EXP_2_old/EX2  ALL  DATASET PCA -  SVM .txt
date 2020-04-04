@@ -1,0 +1,1537 @@
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - EXP2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{"C": 10, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 1e-08, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 78.79%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.81      0.91      0.86        67
+          3       0.50      0.33      0.40        15
+          4       0.75      0.60      0.67        10
+
+avg / total       0.77      0.79      0.77        99
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 61  4  2]
+ [ 0  0 10  5  0]
+ [ 0  0  3  1  6]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - EXP2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{"C": 10, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 1e-08, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 81.82%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.82      0.94      0.88        67
+          3       0.73      0.53      0.62        15
+          4       0.80      0.40      0.53        10
+
+avg / total       0.82      0.82      0.80        99
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 63  3  1]
+ [ 0  0  7  8  0]
+ [ 0  0  6  0  4]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - EXP2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{"C": 10, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 1e-08, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 79.80%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.82      0.91      0.87        67
+          3       0.54      0.47      0.50        15
+          4       0.83      0.50      0.62        10
+
+avg / total       0.79      0.80      0.79        99
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 61  5  1]
+ [ 0  0  8  7  0]
+ [ 0  0  4  1  5]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - EXP2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{"C": 10, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 1e-08, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 82.83%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.83      0.94      0.88        67
+          3       0.67      0.40      0.50        15
+          4       0.88      0.70      0.78        10
+
+avg / total       0.82      0.83      0.82        99
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 63  3  1]
+ [ 0  0  9  6  0]
+ [ 0  0  3  0  7]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - EXP2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{"C": 10, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 1e-08, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 79.80%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.82      0.90      0.86        67
+          3       0.62      0.53      0.57        15
+          4       0.71      0.50      0.59        10
+
+avg / total       0.79      0.80      0.79        99
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 60  5  2]
+ [ 0  0  7  8  0]
+ [ 0  0  5  0  5]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - EXP2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{"C": 10, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 1e-08, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 83.84%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.84      0.94      0.89        67
+          3       0.67      0.53      0.59        15
+          4       1.00      0.60      0.75        10
+
+avg / total       0.84      0.84      0.83        99
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 63  4  0]
+ [ 0  0  7  8  0]
+ [ 0  0  4  0  6]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - EXP2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{"C": 10, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 1e-08, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 82.83%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.85      0.93      0.89        67
+          3       0.67      0.53      0.59        15
+          4       0.75      0.60      0.67        10
+
+avg / total       0.82      0.83      0.82        99
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 62  3  2]
+ [ 0  0  7  8  0]
+ [ 0  0  3  1  6]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - EXP2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{"C": 10, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 1e-08, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 78.79%
+             precision    recall  f1-score   support
+
+          0       1.00      0.67      0.80         3
+          1       1.00      0.75      0.86         4
+          2       0.82      0.90      0.86        67
+          3       0.53      0.53      0.53        15
+          4       0.83      0.50      0.62        10
+
+avg / total       0.79      0.79      0.78        99
+
+[[ 2  0  1  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 60  6  1]
+ [ 0  0  7  8  0]
+ [ 0  0  4  1  5]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - EXP2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{"C": 10, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 1e-08, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 79.80%
+             precision    recall  f1-score   support
+
+          0       1.00      0.67      0.80         3
+          1       1.00      0.75      0.86         4
+          2       0.82      0.91      0.87        67
+          3       0.54      0.47      0.50        15
+          4       0.86      0.60      0.71        10
+
+avg / total       0.80      0.80      0.79        99
+
+[[ 2  0  1  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 61  5  1]
+ [ 0  0  8  7  0]
+ [ 0  0  3  1  6]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - PLAYLIST TRAINED TO CLF
+ PL CLF index: - EXP2 - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{"C": 10, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 1e-08, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 73.53%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       0.80      1.00      0.89         4
+          2       0.78      0.85      0.82        68
+          3       0.50      0.31      0.38        16
+          4       0.50      0.45      0.48        11
+
+avg / total       0.72      0.74      0.72       102
+
+[[ 3  0  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  1 58  4  5]
+ [ 0  0 11  5  0]
+ [ 0  0  5  1  5]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{"C": 10, "cache_size": 200, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": 1e-08, "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+ --> Validation: 
+ - Accuracy: 76.47%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.78      0.91      0.84        65
+          3       0.53      0.53      0.53        15
+          4       1.00      0.33      0.50        15
+
+avg / total       0.79      0.76      0.75       102
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 59  6  0]
+ [ 0  0  7  8  0]
+ [ 0  0  9  1  5]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{
+    "C": 10,
+    "cache_size": 200,
+    "class_weight": null,
+    "coef0": 0.0,
+    "decision_function_shape": "ovr",
+    "degree": 3,
+    "gamma": 1e-08,
+    "kernel": "rbf",
+    "max_iter": -1,
+    "probability": false,
+    "random_state": null,
+    "shrinking": true,
+    "tol": 0.001,
+    "verbose": false
+}
+ --> Validation: 
+ - Accuracy: 79.41%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.81      0.91      0.86        65
+          3       0.53      0.53      0.53        15
+          4       1.00      0.53      0.70        15
+
+avg / total       0.81      0.79      0.79       102
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 59  6  0]
+ [ 0  0  7  8  0]
+ [ 0  0  6  1  8]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{
+    "C": 10,
+    "cache_size": 200,
+    "class_weight": null,
+    "coef0": 0.0,
+    "decision_function_shape": "ovr",
+    "degree": 3,
+    "gamma": 1e-08,
+    "kernel": "rbf",
+    "max_iter": -1,
+    "probability": false,
+    "random_state": null,
+    "shrinking": true,
+    "tol": 0.001,
+    "verbose": false
+}
+ --> Validation: 
+ - Accuracy: 75.49%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.50      0.67         4
+          2       0.78      0.91      0.84        65
+          3       0.50      0.47      0.48        15
+          4       0.86      0.40      0.55        15
+
+avg / total       0.76      0.75      0.74       102
+
+[[ 3  0  0  0  0]
+ [ 0  2  1  0  1]
+ [ 0  0 59  6  0]
+ [ 0  0  8  7  0]
+ [ 0  0  8  1  6]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{
+    "C": 10,
+    "cache_size": 200,
+    "class_weight": null,
+    "coef0": 0.0,
+    "decision_function_shape": "ovr",
+    "degree": 3,
+    "gamma": 1e-08,
+    "kernel": "rbf",
+    "max_iter": -1,
+    "probability": false,
+    "random_state": null,
+    "shrinking": true,
+    "tol": 0.001,
+    "verbose": false
+}
+ --> Validation: 
+ - Accuracy: 79.41%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.50      0.67         4
+          2       0.80      0.94      0.87        65
+          3       0.62      0.53      0.57        15
+          4       0.88      0.47      0.61        15
+
+avg / total       0.80      0.79      0.78       102
+
+[[ 3  0  0  0  0]
+ [ 0  2  1  0  1]
+ [ 0  0 61  4  0]
+ [ 0  0  7  8  0]
+ [ 0  0  7  1  7]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{
+    "C": 10,
+    "cache_size": 200,
+    "class_weight": null,
+    "coef0": 0.0,
+    "decision_function_shape": "ovr",
+    "degree": 3,
+    "gamma": 1e-08,
+    "kernel": "rbf",
+    "max_iter": -1,
+    "probability": false,
+    "random_state": null,
+    "shrinking": true,
+    "tol": 0.001,
+    "verbose": false
+}
+ --> Validation: 
+ - Accuracy: 73.53%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.78      0.91      0.84        65
+          3       0.41      0.47      0.44        15
+          4       1.00      0.20      0.33        15
+
+avg / total       0.77      0.74      0.71       102
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 59  6  0]
+ [ 0  0  8  7  0]
+ [ 0  0  8  4  3]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+{'C': 10, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 1e-08, 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+ --> Validation: 
+ - Accuracy: 78.43%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.78      0.94      0.85        65
+          3       0.58      0.47      0.52        15
+          4       1.00      0.40      0.57        15
+
+avg / total       0.80      0.78      0.77       102
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 61  4  0]
+ [ 0  0  8  7  0]
+ [ 0  0  8  1  6]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)>
+ --> Validation: 
+ - Accuracy: 76.47%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.78      0.92      0.85        65
+          3       0.50      0.47      0.48        15
+          4       1.00      0.33      0.50        15
+
+avg / total       0.79      0.76      0.75       102
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 60  5  0]
+ [ 0  0  8  7  0]
+ [ 0  0  8  2  5]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)>
+ --> Validation: 
+ - Accuracy: 80.39%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.75      0.86         4
+          2       0.82      0.91      0.86        65
+          3       0.50      0.47      0.48        15
+          4       1.00      0.67      0.80        15
+
+avg / total       0.81      0.80      0.80       102
+
+[[ 3  0  0  0  0]
+ [ 0  3  1  0  0]
+ [ 0  0 59  6  0]
+ [ 0  0  8  7  0]
+ [ 0  0  4  1 10]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)>
+ --> Validation: 
+ - Accuracy: 73.53%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         3
+          1       1.00      0.25      0.40         4
+          2       0.77      0.89      0.83        65
+          3       0.47      0.47      0.47        15
+          4       0.75      0.40      0.52        15
+
+avg / total       0.74      0.74      0.72       102
+
+[[ 3  0  0  0  0]
+ [ 0  1  1  0  2]
+ [ 0  0 58  7  0]
+ [ 0  0  8  7  0]
+ [ 0  0  8  1  6]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)>
+ --> Validation: 
+ - Accuracy: 71.84%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       0.67      0.67      0.67         3
+          2       0.76      0.90      0.82        67
+          3       0.43      0.46      0.44        13
+          4       0.80      0.22      0.35        18
+
+avg / total       0.73      0.72      0.69       103
+
+[[ 2  0  0  0  0]
+ [ 0  2  1  0  0]
+ [ 0  0 60  7  0]
+ [ 0  0  6  6  1]
+ [ 0  1 12  1  4]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)>
+ --> Validation: 
+ - Accuracy: 72.82%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       0.67      0.67      0.67         3
+          2       0.75      0.91      0.82        67
+          3       0.45      0.38      0.42        13
+          4       0.83      0.28      0.42        18
+
+avg / total       0.73      0.73      0.70       103
+
+[[ 2  0  0  0  0]
+ [ 0  2  1  0  0]
+ [ 0  0 61  6  0]
+ [ 0  0  7  5  1]
+ [ 0  1 12  0  5]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)>
+ --> Validation: 
+ - Accuracy: 69.90%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       0.67      0.67      0.67         3
+          2       0.73      0.90      0.81        67
+          3       0.36      0.31      0.33        13
+          4       0.80      0.22      0.35        18
+
+avg / total       0.70      0.70      0.67       103
+
+[[ 2  0  0  0  0]
+ [ 0  2  1  0  0]
+ [ 0  0 60  7  0]
+ [ 0  0  8  4  1]
+ [ 0  1 13  0  4]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)>
+ --> Validation: 
+ - Accuracy: 80.77%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       0.67      0.67      0.67         3
+          2       0.83      0.93      0.87        67
+          3       0.62      0.53      0.57        15
+          4       0.91      0.59      0.71        17
+
+avg / total       0.81      0.81      0.80       104
+
+[[ 2  0  0  0  0]
+ [ 0  2  1  0  0]
+ [ 0  0 62  5  0]
+ [ 0  0  6  8  1]
+ [ 0  1  6  0 10]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)>
+ --> Validation: 
+ - Accuracy: 78.85%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       0.67      0.67      0.67         3
+          2       0.81      0.94      0.87        67
+          3       0.58      0.47      0.52        15
+          4       0.89      0.47      0.62        17
+
+avg / total       0.79      0.79      0.77       104
+
+[[ 2  0  0  0  0]
+ [ 0  2  1  0  0]
+ [ 0  0 63  4  0]
+ [ 0  0  7  7  1]
+ [ 0  1  7  1  8]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----   ALL  DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)>
+ --> Validation: 
+ - Accuracy: 81.73%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      0.33      0.50         3
+          2       0.83      0.94      0.88        67
+          3       0.62      0.53      0.57        15
+          4       0.92      0.65      0.76        17
+
+avg / total       0.82      0.82      0.81       104
+
+[[ 2  0  0  0  0]
+ [ 0  1  1  0  1]
+ [ 0  0 63  4  0]
+ [ 0  0  7  8  0]
+ [ 0  0  5  1 11]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #

@@ -1,0 +1,64 @@
+ # * # * # * # * # * # * # * #
+ - Results of EXP_2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:All Out 80s
+ - PL ID37i9dQZF1DX4UtSsGT1Sbe
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ ----- SPOTIFY DATASET -----
+ - RF  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=20, max_features=2, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=5, min_samples_split=8,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)>
+ --> Validation: 
+ - Accuracy: 88.75%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        52
+          1       1.00      1.00      1.00        30
+          2       0.66      0.85      0.74        27
+          3       0.86      0.89      0.87        27
+          4       0.87      0.54      0.67        24
+
+avg / total       0.90      0.89      0.88       160
+
+[[52  0  0  0  0]
+ [ 0 30  0  0  0]
+ [ 0  0 23  2  2]
+ [ 0  0  3 24  0]
+ [ 0  0  9  2 13]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #

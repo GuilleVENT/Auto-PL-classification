@@ -1,0 +1,64 @@
+ # * # * # * # * # * # * # * #
+ - Results of EXP_2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:All Out 80s
+ - PL ID37i9dQZF1DX4UtSsGT1Sbe
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----  SPO_noPCA -----
+ -Bagging Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of BaggingClassifier(base_estimator=SVC(C=10000, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False),
+         bootstrap=True, bootstrap_features=True, max_features=1.0,
+         max_samples=1.0, n_estimators=300, n_jobs=1, oob_score=False,
+         random_state=1, verbose=0, warm_start=True)>
+ --> Validation: 
+ - Accuracy: 90.00%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        52
+          1       1.00      1.00      1.00        30
+          2       0.67      0.81      0.73        27
+          3       0.96      0.93      0.94        27
+          4       0.79      0.62      0.70        24
+
+avg / total       0.91      0.90      0.90       160
+
+[[52  0  0  0  0]
+ [ 0 30  0  0  0]
+ [ 0  0 22  1  4]
+ [ 0  0  2 25  0]
+ [ 0  0  9  0 15]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #

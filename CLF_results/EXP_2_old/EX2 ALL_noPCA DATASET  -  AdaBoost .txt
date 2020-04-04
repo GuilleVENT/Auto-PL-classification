@@ -1,0 +1,189 @@
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----  ALL_noPCA DATASET -----
+ - AdaBoost  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of AdaBoostClassifier(algorithm='SAMME',
+          base_estimator=SVC(C=10000, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False),
+          learning_rate=1.0, n_estimators=100, random_state=None)>
+ --> Validation: 
+ - Accuracy: 66.99%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      0.67      0.80         3
+          2       0.76      0.79      0.77        67
+          3       0.26      0.38      0.31        13
+          4       0.70      0.39      0.50        18
+
+avg / total       0.70      0.67      0.67       103
+
+[[ 2  0  0  0  0]
+ [ 0  2  1  0  0]
+ [ 0  0 53 12  2]
+ [ 0  0  7  5  1]
+ [ 0  0  9  2  7]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----  ALL_noPCA DATASET -----
+ - AdaBoost  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of AdaBoostClassifier(algorithm='SAMME',
+          base_estimator=SVC(C=10000, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False),
+          learning_rate=1.0, n_estimators=300, random_state=None)>
+ --> Validation: 
+ - Accuracy: 79.81%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      0.67      0.80         3
+          2       0.83      0.90      0.86        67
+          3       0.62      0.67      0.65        15
+          4       0.75      0.53      0.62        17
+
+avg / total       0.80      0.80      0.79       104
+
+[[ 2  0  0  0  0]
+ [ 0  2  1  0  0]
+ [ 0  0 60  5  2]
+ [ 0  0  4 10  1]
+ [ 0  0  7  1  9]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
+ # * # * # * # * # * # * # * #
+ - Results of EXP2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify_france
+ - PLAYLIST:Fresh Rap
+ - PL ID37i9dQZF1DWU4xkXueiKGW
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ -----  ALL_noPCA DATASET -----
+ - AdaBoost  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of AdaBoostClassifier(algorithm='SAMME',
+          base_estimator=SVC(C=10000, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1e-08, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False),
+          learning_rate=1.0, n_estimators=300, random_state=None)>
+ --> Validation: 
+ - Accuracy: 79.81%
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      0.67      0.80         3
+          2       0.83      0.90      0.86        67
+          3       0.62      0.67      0.65        15
+          4       0.75      0.53      0.62        17
+
+avg / total       0.80      0.80      0.79       104
+
+[[ 2  0  0  0  0]
+ [ 0  2  1  0  0]
+ [ 0  0 60  5  2]
+ [ 0  0  4 10  1]
+ [ 0  0  7  1  9]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #

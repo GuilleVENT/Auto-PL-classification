@@ -1,0 +1,61 @@
+ # * # * # * # * # * # * # * #
+ - Results of EXP_2
+ PLAYLIST used: - - - - - - - - - - - - - - -
+ - ############:
+0
+ - USER:
+spotify
+ - PLAYLIST:Peaceful Piano
+ - PL ID37i9dQZF1DX4sWSpwq3LiO
+ - ############:
+1
+ - USER:
+spotify_germany
+ - PLAYLIST:Techno Bunker
+ - PL ID37i9dQZF1DX6J5NfMJS675
+ - ############:
+2
+ - USER:
+spotify
+ - PLAYLIST:All Out 80s
+ - PL ID37i9dQZF1DX4UtSsGT1Sbe
+ - ############:
+3
+ - USER:
+spotify
+ - PLAYLIST:¡Viva Latino!
+ - PL ID37i9dQZF1DX10zKzsJ2jva
+ - ############:
+4
+ - USER:
+spotify
+ - PLAYLIST:Rock Classics
+ - PL ID37i9dQZF1DWXRqgorJj26U
+ -------- RESULTS --------
+ ----- SPOTIFY DATASET PCA-----
+ - SVM  Classifier 
+ - PARAMETERS:
+<bound method BaseEstimator.get_params of SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=10, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)>
+ --> Validation: 
+ - Accuracy: 75.62%
+             precision    recall  f1-score   support
+
+          0       0.81      0.92      0.86        52
+          1       0.96      0.90      0.93        30
+          2       0.53      0.59      0.56        27
+          3       0.79      0.70      0.75        27
+          4       0.58      0.46      0.51        24
+
+avg / total       0.76      0.76      0.75       160
+
+[[48  0  3  0  1]
+ [ 0 27  3  0  0]
+ [ 2  0 16  2  7]
+ [ 3  0  5 19  0]
+ [ 6  1  3  3 11]]
+ - - - - - - - - - - - 
+ 
+ # * # * # * # * # * # * # * #
